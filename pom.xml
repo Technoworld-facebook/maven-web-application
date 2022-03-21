@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Facebook Releases Nexus Repository</name>
-	      <url>http://3.108.219.216:9080/mithun/repository/flipkart-Snapshot/</url>
+	      <url>http://15.206.185.54:9080/mithun/repository/flipkart-Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Facebook Snapshot Nexus Repository </name>
-	      <url>http://3.108.219.216:9080/mithun/repository/flipkart-Snapshot/</url>
+	      <url>http://15.206.185.54:9080/mithun/repository/flipkart-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
