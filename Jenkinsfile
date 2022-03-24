@@ -10,7 +10,7 @@ stage ('Build')
 {
 sh "$mavenHome/bin/mvn clean package"
 }
-
+/*
 stage ('ExecuteSonarQubeReport')
 {
 sh "$mavenHome/bin/mvn sonar:sonar"
@@ -20,11 +20,13 @@ stage ('UploadArtifactIntoNexus')
 {
 sh "$mavenHome/bin/mvn deploy"
 }
+
 stage ('DeployAppIntoTomcat')
 {
 sshagent(['a31d71da-d73c-4bbd-80f4-589fa2a59a22']){
 sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@65.2.146.4:/opt/apache-tomcat-9.0.59/webapps/"
 }
 }
-
-}
+*/
+  
+}//node closing
